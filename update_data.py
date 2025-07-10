@@ -4,7 +4,7 @@ import requests
 import feedparser
 from bs4 import BeautifulSoup
 
-# ニュース取得
+# ニュース取得（日本ハム関連RSS）
 rss_url = "https://news.yahoo.co.jp/rss/topics/sports.xml"
 feed = feedparser.parse(rss_url)
 
@@ -21,7 +21,7 @@ for entry in feed.entries:
 with open("fighters_news.json", "w", encoding="utf-8") as f:
     json.dump({"news": news_items}, f, ensure_ascii=False, indent=2)
 
-# パ・リーグ順位表
+# パ・リーグ順位取得
 url = "https://baseball.yahoo.co.jp/npb/standings/"
 res = requests.get(url)
 soup = BeautifulSoup(res.content, "html.parser")
