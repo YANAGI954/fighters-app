@@ -1,0 +1,10 @@
+{
+  "standings": [
+    {"team": "ソフトバンク", "wins": 46, "losses": 29, "draws": 2, "win_pct": ".613"},
+    {"team": "日本ハム", "wins": 45, "losses": 30, "draws": 2, "win_pct": ".600"},
+    {"team": "ロッテ", "wins": 40, "losses": 35, "draws": 2, "win_pct": ".533"},
+    {"team": "西武", "wins": 35, "losses": 39, "draws": 3, "win_pct": ".473"},
+    {"team": "オリックス", "wins": 33, "losses": 41, "draws": 3, "win_pct": ".446"},
+    {"team": "楽天", "wins": 32, "losses": 44, "draws": 1, "win_pct": ".421"}
+  ]
+}
